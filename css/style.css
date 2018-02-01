@@ -3,22 +3,25 @@
 #name{
     font-family: 'Roboto Condensed';
     margin-left: 45px;
+    color: #41443B;
 }
 
 #bio{
     text-align: center;
     margin-top: 65px;
+    color: slategray;
 }
 
 body{
-    background-image: url("../img/maxresdefault.jpg");
+    background-image: url("https://vignette.wikia.nocookie.net/darkwood/images/1/17/Hideout2.png/revision/latest?cb=20150615225806");
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 p{
-    color: slategrey;
+    color: darkgray;
     text-align: left;
     margin-left: 180px;
     margin-right: 180px;
@@ -35,7 +38,7 @@ p{
     text-align: center;
     margin-right: 45px;
     margin-top: 5px;
-    font-size: 13px;
+    font-size: 15px;
     font-family: 'Coda';
 }
 
