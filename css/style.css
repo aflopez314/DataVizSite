@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Coda|Roboto+Condensed");
-    
+
+@-webkit-keyframes flicker
+{
+0% {opacity:0;}
+9% {opacity:0;}
+10% {opacity:.5;}
+13% {opacity:0;}
+20% {opacity:.5;}
+25% {opacity:1;}
+}
+
 #name{
     font-family: 'Roboto Condensed';
     margin-left: 45px;
@@ -60,6 +70,7 @@ p{
 }
 
 #agnlist ul li a{
+    -webkit-animation: flicker 4s infinite;
     color: #41443B;
     text-decoration: none;
     padding-left: 1em;
@@ -67,7 +78,7 @@ p{
     text-align: center;
     margin-bottom: 45px;
     margin-top: 35px;
-    font-size: 13px;
+    font-size: 25px;
     font-family: 'Coda';
 }
 
@@ -81,7 +92,8 @@ p{
 }
 
 #agnlist ul{
-    padding-top: 65px;
+    padding-top: 315px;
+    padding-left: 900px;
 }
 
 #datalist ul{
@@ -89,14 +101,15 @@ p{
 }
 
 #datalist ul li a{
+    -webkit-animation: flicker 4s infinite;
     color: #41443B;
     text-decoration: none;
     padding-left: 1em;
     padding: 4px 2px;
     text-align: center;
-    margin-right: 45px;
+    margin-bottom: 45px;
     margin-top: 35px;
-    font-size: 13px;
+    font-size: 25px;
     font-family: 'Coda';
 }
 
@@ -110,5 +123,6 @@ p{
 }
 
 #datalist ul{
-    padding-top: 65px;
+     padding-top: 315px;
+    padding-left: 900px;
 }
