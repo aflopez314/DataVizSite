@@ -11,9 +11,10 @@
 }
 
 body{
-    background-image: url("maxresdefault.jpg");
+    background-image: url("../img/maxresdefault.jpg");
     background-repeat: no-repeat;
     background-position: right top;
+    background-attachment: fixed;
 }
 
 p{
