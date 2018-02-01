@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Coda|Roboto+Condensed");
+    
+#name{
+    font-family: 'Roboto Condensed';
+    margin-left: 45px;
+}
+
+#bio{
+    text-align: center;
+    margin-top: 65px;
+}
+
+body{
+    background-color: #CCCCCC;
+}
+
+p{
+    color: slategrey;
+    text-align: left;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+#navbar ul{
+    list-style: none;
+}
+
+#navbar ul li a{
+    color: #41443B;
+    text-decoration: none;
+    float: right;
+    padding: 4px 2px;
+    text-align: center;
+    margin-right: 45px;
+    margin-top: 5px;
+    font-size: 13px;
+    font-family: 'Coda';
+}
+
+#navbar ul li a:hover{
+    color: #41443B;
+    text-shadow: 0px 2px 1px #6f7272;
+}
+
+#navbar ul li{
+    float:  left;
+}
+
+#navbar ul{
+    float: right;
+}
+
+#agnlist ul{
+    list-style: none;
+}
+
+#agnlist ul li a{
+    color: #41443B;
+    text-decoration: none;
+    padding-left: 1em;
+    padding: 4px 2px;
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 35px;
+    font-size: 13px;
+    font-family: 'Coda';
+}
+
+#agnlist ul li a:hover{
+    color: #41443B;
+    text-shadow: 0px 2px 1px #6f7272;
+}
+
+#agnlist ul li{
+    padding-top: 1em;
+}
+
+#agnlist ul{
+    padding-top: 65px;
+}
+
+#datalist ul{
+    list-style: none;
+}
+
+#datalist ul li a{
+    color: #41443B;
+    text-decoration: none;
+    padding-left: 1em;
+    padding: 4px 2px;
+    text-align: center;
+    margin-right: 45px;
+    margin-top: 35px;
+    font-size: 13px;
+    font-family: 'Coda';
+}
+
+#datalist ul li a:hover{
+    color: #41443B;
+    text-shadow: 0px 2px 1px #6f7272;
+}
+
+#datalist ul li{
+    padding-top: 1em;
+}
+
+#datalist ul{
+    padding-top: 65px;
+}
