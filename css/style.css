@@ -16,6 +16,7 @@ body{
     background-image: url("https://vignette.wikia.nocookie.net/darkwood/images/1/17/Hideout2.png/revision/latest?cb=20150615225806");
     background-repeat: no-repeat;
     background-position: right top;
+    background-attachment: fixed;
     background-size: cover;
 }
 
