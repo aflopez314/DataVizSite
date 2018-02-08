@@ -12,18 +12,36 @@
 
 #name{
     font-family: 'Roboto Condensed';
-    margin-left: 45px;
-    color: #41443B;
+    margin-top: 5%;
+    margin-left: 5%;
+    float: none;
+    color: ghostwhite;
+    font-size: 300%;
+    
 }
 
-#bio{
-    text-align: center;
-    margin-top: 65px;
+#bio {
+    float: right;
+    margin-top: 10%;
+    text-align: justify;
+    max-width: 50%;
+    max-height: 30%;
+    text-overflow: ellipsis;
     color: slategray;
+    font-size: 20px;
+    font-family: 'Coda';
+}
+
+#bio h2{
+    color: #FFC04C;
+    text-align: center;
+    padding-right: 40%;
+    font-size: 25px;
+    font-family: 'Coda'
 }
 
 body{
-    background-image: url("../img/Hideout2.png");
+    background-image: url("../img/grey.jpg");
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
@@ -33,82 +51,87 @@ body{
 p{
     color: darkgray;
     text-align: left;
-    margin-left: 180px;
-    margin-right: 180px;
+    width: 85%;
+    
 }
-#navbar ul{
+#navbar{
     list-style: none;
+    float: left;
+    margin-left: 3%;
 }
 
-#navbar ul li a{
-    color: #41443B;
+#navbar thead tr td{
+    padding-top: 4%;
+    padding-bottom: 16%;
+}
+
+#navbar tbody tr td a{
+    color: ghostwhite;
     text-decoration: none;
-    float: right;
-    padding: 4px 2px;
+    font-style: italic;
+    float: left;
     text-align: center;
-    margin-right: 45px;
-    margin-top: 5px;
-    font-size: 15px;
+    padding: 1% 2%;
+    font-size: 100%;
     font-family: 'Coda';
 }
 
-#navbar ul li a:hover{
-    color: #41443B;
+#navbar tbody tr td a:hover{
+    color: #969696;
     text-shadow: 0px 2px 1px #6f7272;
 }
 
-#navbar ul li{
-    float:  left;
-}
 
-#navbar ul{
-    float: right;
-}
-
-#agnlist ul{
+#agnlist table{
     list-style: none;
+    float: right;
+    margin-top: 10%;
+    margin-right: 10%;
 }
 
-#agnlist ul li a{
-    -webkit-animation: flicker 4s infinite;
+#agnlist table thead tr th{
+    color: #FFC04C;
+    text-decoration: none;
+    padding: 1% 2%;
+    text-align: left;
+    font-size: 150%;
+    font-family: 'Coda';
+}
+
+#agnlist table tbody tr td{
     color: #41443B;
     text-decoration: none;
-    padding-left: 1em;
-    padding: 4px 2px;
     text-align: center;
-    margin-bottom: 45px;
-    margin-top: 35px;
     font-size: 25px;
     font-family: 'Coda';
 }
 
-#agnlist ul li a:hover{
-    color: #41443B;
-    text-shadow: 0px 2px 1px #6f7272;
+#image{
+    display: block;
+    width: 660px;
+    height: 500px;
+    margin-bottom: 2%;
 }
 
-#agnlist ul li{
-    padding-top: 1em;
+#desc{
+    font-size: 15px;
+    width: 600px;
+    padding-top: 3%;
 }
 
-#agnlist ul{
-    padding-top: 23%;
-    padding-left: 68%;
-}
-
-#datalist ul{
+#datalist table{
     list-style: none;
+    float: right;
+    margin-top: 20%;
+    margin-right: 5%;
 }
 
-#datalist ul li a{
-    -webkit-animation: flicker 4s infinite;
+#datalist table thead tr th{
     color: #41443B;
     text-decoration: none;
-    padding-left: 1em;
-    padding: 4px 2px;
+    padding-left: 190px;
+    padding-right: 190px;
     text-align: center;
-    margin-bottom: 45px;
-    margin-top: 35px;
     font-size: 25px;
     font-family: 'Coda';
 }
@@ -122,7 +145,81 @@ p{
     padding-top: 1em;
 }
 
+#projectlist ul{
+    list-style: none;
+    float: right;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+#projectlist ul li a{
+    color: #FFC04C;
+    text-decoration: none;
+    padding-left: 1em;
+    padding: 4px 2px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Coda';
+}
+
+#projectlist ul li a:hover{
+    color: #ffdfa5;
+    text-shadow: 0px 2px 1px #6f7272;
+}
+
+#projectlist ul li{
+    padding-top: 1em;
+}
+
+#agnlist ul{
+    list-style: none;
+    float: right;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+#agnlist ul li a{
+    color: #FFC04C;
+    text-decoration: none;
+    padding-left: 1em;
+    padding: 4px 2px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Coda';
+}
+
+#agnlist ul li a:hover{
+    color: #ffdfa5;
+    text-shadow: 0px 2px 1px #6f7272;
+}
+
+#agnlist ul li{
+    padding-top: 1em;
+}
+
+
 #datalist ul{
-     padding-top: 23%;
-    padding-left: 68%;
+    list-style: none;
+    float: right;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+#datalist ul li a{
+    color: #FFC04C;
+    text-decoration: none;
+    padding-left: 1em;
+    padding: 4px 2px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Coda';
+}
+
+#datalist ul li a:hover{
+    color: #ffdfa5;
+    text-shadow: 0px 2px 1px #6f7272;
+}
+
+#datalist ul li{
+    padding-top: 1em;
 }
