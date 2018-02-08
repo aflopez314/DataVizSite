@@ -55,7 +55,10 @@ p{
     
 }
 #navbar{
+    overflow: hidden;
     list-style: none;
+    position: fixed;
+    top: 1;
     float: left;
     margin-left: 3%;
 }
