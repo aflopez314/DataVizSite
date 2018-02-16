@@ -92,28 +92,29 @@ p{
     margin-right: 10%;
 }
 
-#agnlist table thead tr th{
+
+h1{
     color: #FFC04C;
     text-decoration: none;
-    padding: 1% 2%;
-    text-align: left;
+    margin-top: 4%;
+    padding: 1% 8%;
+    float: right;
     font-size: 150%;
     font-family: 'Coda';
 }
 
-#agnlist table tbody tr td{
-    color: #41443B;
+th{
+    color: #FFC04C;
     text-decoration: none;
+    padding: 1% 2%;
     text-align: center;
-    font-size: 25px;
+    font-size: 150%;
     font-family: 'Coda';
 }
 
-#image{
-    display: block;
-    width: 660px;
-    height: 500px;
-    margin-bottom: 2%;
+canvas{
+    float: right;
+    margin-right: 2%;
 }
 
 #desc{
