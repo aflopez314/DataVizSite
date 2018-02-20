@@ -9,7 +9,7 @@ var startOwn = 0;
 
 
 function preload(){
-    harlemTable = loadTable("../data/harlem2.csv", 'csv', 'header');
+    harlemTable = loadTable("data/harlem2.csv", 'csv', 'header');
     console.log('table has loaded...');
     
 }
