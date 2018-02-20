@@ -6,6 +6,7 @@
     <meta name="author" content="Ángel López Zamora">
     
     <script src="js/p5.js"></script>
+    <script src="js/harlem.js"></script>
     
     
     <link rel="stylesheet", type="text/css", href="css/style.css">
@@ -44,11 +45,18 @@
         </tbody>
     </table>
     
-    <h1>Assignment 5: P5 Data Visualization</h1>
+    <h1>Assignment 5: East Central Harlem, P5 Data Viz</h1>
     
-    <canvas id = "myCanvas2">
-        <script src="js/harlem.js"></script>
-    </canvas>
-    
+    <div id = "myCanvas2">
+    </div>
+    <p id = 'a5p'>This table shows the ownership types for housing units in East Central Harlem by year. The bolder the variable of ownership type, the more housing units that are assigned to that category. The graph indicates that the most of the housing is under P and Null, which suggests large Private Ownership in East Central Harlem. Also there seems to be a concentration of housing units under Private Ownership built in the early 1900s and the early 2000s. The types are as follows:</p>
+    <ul id = 'a5l'>
+        <li>X: Mixed - fully tax exempt property owned by City, State, or Local gov, Public Authority, or private institution</li>
+        <li>P: Private Ownership</li>
+        <li>C: City Ownership</li>
+        <li>O: Other - Public Authority, State, or Federal Ownership</li>
+        <li>M: Mixed City and Private Ownership</li>
+        <li>Null: Unknown (Usually Private Ownership)</li>
+    </ul>
     </body>
 </html>

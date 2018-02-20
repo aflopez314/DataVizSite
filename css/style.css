@@ -113,8 +113,31 @@ th{
 }
 
 canvas{
+    display: block;
     float: right;
-    margin-right: 2%;
+    margin-right: 5%;
+    align-content:center;
+}
+
+#a5p{
+    display: block;
+    float: right;
+    font-size: 120%;
+    width: 645px;
+    padding: 20px 60px;
+    font-family: 'Roboto Condensed';
+    
+}
+
+#a5l{
+    display: block;
+    float: right;
+    font-size: 120%;
+    font-family: 'Roboto Condensed';
+    width: 645px;
+    padding: 20px 60px;
+    color: darkgray;
+    
 }
 
 #desc{

@@ -5,7 +5,6 @@ var startY = 13;
 var endY = 600;
 var startYear = 1800;
 var endYear = 2015;
-var startOwn = 0;
 
 
 function preload(){
@@ -15,10 +14,11 @@ function preload(){
 }
 
 function setup() {
-    createCanvas(640, 480);
+    var cnv = createCanvas(640, 480);
+    cnv.parent('myCanvas2');
     colorMode(HSB);
     background(53, 4, 11);
-    textFont('Roboto');
+    textFont('Roboto Condensed');
     textSize(25);
     textAlign(BOTTOM);
     fill(35, 50, 50);
