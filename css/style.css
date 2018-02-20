@@ -115,17 +115,15 @@ th{
 div{
     display: block;
     float: right;
+}
+
+canvas{
     margin-right: 5%;
     margin-top: 5%;
 }
 
-canvas{
-    float: right
-}
-
 #a5p{
     clear: both;
-    float: right;
     font-size: 120%;
     width: 645px;
     padding: 20px 60px;
@@ -134,7 +132,6 @@ canvas{
 }
 
 #a5l{
-    float: right;
     font-size: 120%;
     font-family: 'Roboto Condensed';
     width: 645px;
