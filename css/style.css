@@ -137,6 +137,7 @@ th{
 }
 
 #a5l{
+    clear: both;
     float: right;
     font-size: 120%;
     font-family: 'Roboto Condensed';
