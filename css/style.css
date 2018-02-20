@@ -112,23 +112,22 @@ th{
     font-family: 'Coda';
 }
 
-div{
+#myCanvas{
     display: block;
     float: right;
-}
-
-#myCanvas{
     margin-right: 5%;
-    margin-top: 5%;
+    margin-top: 30%;
 }
 
 #myCanvas2{
+    display: block;
+    float: right;
     margin-right: 5%;
-    margin-top: 5%;
 }
 
 #a5p{
     clear: both;
+    float: right;
     font-size: 120%;
     width: 645px;
     padding: 20px 60px;
@@ -137,6 +136,7 @@ div{
 }
 
 #a5l{
+    float: right;
     font-size: 120%;
     font-family: 'Roboto Condensed';
     width: 645px;
