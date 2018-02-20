@@ -112,10 +112,8 @@ th{
     font-family: 'Coda';
 }
 
-#data-con{
-    display: block;
+#text{
     float: right;
-    margin-right: 5%;
 }
 
 canvas{
