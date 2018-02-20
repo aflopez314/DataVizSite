@@ -113,14 +113,14 @@ th{
 }
 
 #myCanvas{
-    display: block;
+    clear: both;
     float: right;
     margin-right: 5%;
     margin-top: 30%;
 }
 
 #myCanvas2{
-    display: block;
+    clear: both;
     float: right;
     margin-right: 5%;
 }
