@@ -112,7 +112,8 @@ th{
     font-family: 'Coda';
 }
 
-#text{
+div{
+    display: block;
     float: right;
 }
 
