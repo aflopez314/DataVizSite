@@ -119,13 +119,11 @@ th{
 }
 
 canvas{
-    display: block;
     float: right;
     margin-right: 5%;
 }
 
 #a5p{
-    display: block;
     float: right;
     font-size: 120%;
     width: 645px;
@@ -135,7 +133,6 @@ canvas{
 }
 
 #a5l{
-    display: block;
     float: right;
     font-size: 120%;
     font-family: 'Roboto Condensed';
