@@ -13,20 +13,19 @@ function draw(){
             var y1 = j;
             var x2 = mouseX;
             var y2 = mouseY;
-            var d = int(dist(x1,y1,x2,y2))
-            var r = 20 - d;
-            if (r > -20){
-                fill(105,105,105);
-            ellipse(width/20 + 20*i, height/20 + 20*j, 20-d, 20-d);
+            var d = int(dist(x1,y1,x2,y2));
+            var r = .5 - d;
+            if ( r > -30 || r < 30){
+            fill(105,105,105);
+            ellipse(width/30 + 30*i, height/30 + 30*j, 30-d, 30-d);
             }
             else{
             fill(105,105,105);
-            ellipse(width/20 + 20*i, height/20 + 20*j, 20-d, 20-d);
+            ellipse(width/30 + 30*i, height/30 + 30*j, 30, 30);
             }
         }
         }
     }
-
 /*
 function draw(){
      background(232, 44, 12);
