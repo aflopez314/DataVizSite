@@ -124,6 +124,7 @@ canvas{
 }
 
 #a5p{
+    clear: both;
     float: right;
     font-size: 120%;
     width: 645px;
