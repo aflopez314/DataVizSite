@@ -115,12 +115,12 @@ th{
 div{
     display: block;
     float: right;
+    margin-right: 5%;
+    margin-top: 5%;
 }
 
 canvas{
-    float: right;
-    margin-right: 5%;
-    margin-top: 5%;
+    float: right
 }
 
 #a5p{
