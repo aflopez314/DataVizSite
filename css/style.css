@@ -126,9 +126,13 @@ th{
     margin-right: 5%;
 }
 
-#a5p{
+#text{
     clear: both;
     float: right;
+    
+}
+
+#a5p{
     font-size: 120%;
     width: 645px;
     padding: 20px 60px;
@@ -137,8 +141,6 @@ th{
 }
 
 #a5l{
-    clear: both;
-    float: right;
     font-size: 120%;
     font-family: 'Roboto Condensed';
     width: 645px;
