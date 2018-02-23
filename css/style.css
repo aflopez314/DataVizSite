@@ -104,7 +104,6 @@ th{
 
 #myCanvas{
     clear: both;
-<<<<<<< HEAD
     float: right;
     margin-right: 5%;
     margin-top: 30%;
@@ -127,10 +126,9 @@ th{
 #text{
     clear: both;
     float: right;
-=======
     float: right;
     margin-right: 5%;
-    margin-top: 30%;
+    margin-top: 5%;
 }
 
 #myCanvas2{

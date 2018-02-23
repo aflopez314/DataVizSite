@@ -19,10 +19,7 @@ function setup() {
     colorMode(HSB);
     background(53, 4, 11);
     textFont('Roboto Condensed');
-<<<<<<< HEAD
-=======
     textSize(25);
->>>>>>> 8b6bd1146fd49de4bec5b39299279fb916c7821b
     textAlign(BOTTOM);
     textSize(14);
     fill(35, 60, 60);
