@@ -1,15 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Coda|Roboto+Condensed");
 
-@-webkit-keyframes flicker
-{
-0% {opacity:0;}
-9% {opacity:0;}
-10% {opacity:.5;}
-13% {opacity:0;}
-20% {opacity:.5;}
-25% {opacity:1;}
-}
-
 #name{
     font-family: 'Roboto Condensed';
     margin-top: 5%;
@@ -112,9 +102,48 @@ th{
     font-family: 'Coda';
 }
 
-canvas{
+#myCanvas{
+    clear: both;
     float: right;
-    margin-right: 2%;
+    margin-right: 5%;
+    margin-top: 30%;
+}
+
+#myCanvas2{
+    clear: both;
+    float: right;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+#myCanvas3{
+    clear: both;
+    float: right;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+#text{
+    clear: both;
+    float: right;
+    
+}
+
+#a5p{
+    font-size: 120%;
+    width: 645px;
+    padding: 20px 60px;
+    font-family: 'Roboto Condensed';
+    
+}
+
+#a5l{
+    font-size: 120%;
+    font-family: 'Roboto Condensed';
+    width: 645px;
+    padding: 20px 60px;
+    color: darkgray;
+    
 }
 
 #desc{
