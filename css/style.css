@@ -126,7 +126,6 @@ th{
 #text{
     clear: both;
     float: right;
-    float: right;
     margin-right: 5%;
     margin-top: 5%;
 }
@@ -136,13 +135,6 @@ th{
     float: right;
     margin-top: 5%;
     margin-right: 5%;
-}
-
-#text{
-    clear: both;
-    float: right;
->>>>>>> 8b6bd1146fd49de4bec5b39299279fb916c7821b
-    
 }
 
 #a5p{
