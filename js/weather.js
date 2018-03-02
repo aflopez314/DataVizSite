@@ -1,6 +1,6 @@
 /*Global Variables*/
 var apiKey = 'a3ab5769fd0b7e46e027d5598ad1dcd7';
-var baseURL = 'http://api.openweathermap.org/data/2.5/weather?q=';
+var baseURL = 'https://api.openweathermap.org/data/2.5/weather?q=';
 var button;
 var cityInput;
 var description = '';
