@@ -123,6 +123,20 @@ th{
     margin-right: 5%;
 }
 
+#myCanvas4{
+    display: block;
+    clear: both;
+    float: right;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+#button{
+    float: right;
+    clear: both;
+    margin-bottom: 2%;
+}
+
 #text{
     clear: both;
     float: right;
@@ -130,14 +144,15 @@ th{
     margin-top: 5%;
 }
 
-#myCanvas2{
-    clear: both;
-    float: right;
-    margin-top: 5%;
-    margin-right: 5%;
+#submit{
+    padding: 4px 2px;
+    height: 25px;
+    width: 20px;
 }
 
+
 #a5p{
+    clear: both;
     font-size: 120%;
     width: 645px;
     padding: 20px 60px;
