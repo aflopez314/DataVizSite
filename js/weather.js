@@ -1,6 +1,6 @@
 /*Global Variables*/
-var apiKey = 'a3ab5769fd0b7e46e027d5598ad1dcd7'
-var baseURL = 'http://api.openweathermap.org/data/2.5/weather?q='
+var apiKey = 'a3ab5769fd0b7e46e027d5598ad1dcd7';
+var baseURL = 'http://api.openweathermap.org/data/2.5/weather?q=';
 var button;
 var cityInput;
 var description = '';
@@ -44,10 +44,10 @@ function draw(){
     colorMode(HSB);
     background(35, 0, 60);
     if (weatherData){
-    text('The current weather for ' + cityInput.value() + ' is:', 50, 50)
-    text(description, 80, 70)
-    text(temperature + ' F', 80, 90)
-    text(humidity + '% humidity', 80, 110)
-    text(pressure + ' hPa (pressure)', 80, 130)
+    text('The current weather for ' + cityInput.value() + ' is:', 50, 50);
+    text(description, 80, 70);
+    text(temperature + ' F', 80, 90);
+    text(humidity + '% humidity', 80, 110);
+    text(pressure + ' hPa (pressure)', 80, 130);
     }  
 }
