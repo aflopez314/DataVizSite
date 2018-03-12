@@ -38,12 +38,7 @@ body{
     background-size: cover;
 }
 
-p{
-    color: darkgray;
-    text-align: left;
-    width: 85%;
-    
-}
+
 #navbar{
     overflow: hidden;
     list-style: none;
@@ -123,6 +118,13 @@ th{
     margin-right: 5%;
 }
 
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;
+}
+
 #myCanvas4{
     display: block;
     clear: both;
@@ -131,25 +133,46 @@ th{
     margin-right: 5%;
 }
 
-#button{
-    float: right;
-    clear: both;
-    margin-bottom: 2%;
-}
 
-#text{
+#text-input{
+    display: block;
     clear: both;
     float: right;
+    margin-top: 10%;
+    margin-right: 10%;
+    font-family: 'Roboto Condensed';
+    font-weight: 50px;
+    
+    input[type ="text"]{
+    display: inline-block;
+    width: 500px;
+    height: 40;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 10px 10px 10px 100px;
+    transition: all 0.1s ease-out;
     margin-right: 5%;
     margin-top: 5%;
 }
-
-#submit{
-    padding: 4px 2px;
-    height: 25px;
-    width: 20px;
 }
 
+#buttonP{
+    color: whitesmoke;
+}
+
+button{
+    clear: both;
+    color: #FFC04C;
+    background: black;
+    border-color: black;
+}
+
+#submit{
+    height: 20px;
+    width: 25x;
+}
 
 #a5p{
     clear: both;
@@ -157,6 +180,7 @@ th{
     width: 645px;
     padding: 20px 60px;
     font-family: 'Roboto Condensed';
+    color: darkgray;
     
 }
 
@@ -173,6 +197,14 @@ th{
     font-size: 15px;
     width: 600px;
     padding-top: 3%;
+    color: darkgray;
+}
+
+#text{
+    clear: both;
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
 }
 
 #datalist table{
