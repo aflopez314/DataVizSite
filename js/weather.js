@@ -9,6 +9,7 @@ var humidity = 0;
 var pressure = 0;
 var s = '';
 var rClear = /lear\b/;
+var rDrizzle = /izzle\b/;
 var rRain = /ain\b/;
 var rSnow = /now\b/;
 var rClouds = /louds\b/;
@@ -30,10 +31,11 @@ function setup(){
     textSize(16);
     textFont('Roboto Condensed');
     
+    noStroke();
     ellipse(320, 40, 40, 40);
     cloud(550, 240, 0.8);
     cloudRain(320, 440, 0.8, 255, 255, 255);
-    windy(60, 240, 255);
+    windy(40, 240, 255);
     
     noLoop();
     
@@ -93,7 +95,7 @@ function draw(){
         text(description, 320, 220);
         text(humidity + '% humidity', 320, 240);
         text(pressure + ' hPa (pressure)', 320, 260);
-            
+        
         ellipse(320, 40, 40, 40);
         
         c = color('hsb(0, 0%, 100%)');
@@ -170,7 +172,7 @@ function draw(){
                       text(temperature + ' F', 320, 150);
             
         }
-    } else if (rRain.test(s) || rSnow.test(s) || rStorm.test(s)){
+    } else if (rRain.test(s) || rSnow.test(s) || rStorm.test(s) || rDrizzle.test(s)){
          clear();
         var c;
         var rd = 255;

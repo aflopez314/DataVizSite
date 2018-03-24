@@ -125,6 +125,11 @@ th{
     justify-content: center;
 }
 
+#content2{
+    float: left;
+    margin-right: 20%;
+}
+
 #myCanvas4{
     display: block;
     clear: both;
@@ -132,7 +137,29 @@ th{
     margin-top: 5%;
     margin-right: 5%;
 }
+a{
+    color: white;
+}
 
+#essay{
+    clear: both;
+    justify-content: center;
+    margin-right: 25%;
+    width: 550px;
+    color: white;
+    font-family: 'Roboto Condensed';
+}
+
+#para{
+    clear: both;
+    margin-right: 5%;
+    width: 500px;
+    color: white;
+}
+
+img{
+    width: 550px;
+}
 
 #text-input{
     display: block;
