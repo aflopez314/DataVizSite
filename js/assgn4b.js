@@ -1,5 +1,7 @@
 function setup(){
-    createCanvas(500,500);
+	cv = createCanvas(500,500);
+	cv.attribute("style","position: relative");
+	cv.attribute("align","right");
 }
 
 function draw(){
